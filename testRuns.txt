@@ -1,0 +1,46 @@
+Test Run 1 (0 assignments)
+Enter the number of assignments (between 1 and 25): 0
+
+-- program is finished running --
+
+Test Run 2 (negative number of assignments)
+Enter the number of assignments (between 1 and 25): -2
+
+-- program is finished running --
+
+Test Run 3 (regular)
+Enter the number of assignments (between 1 and 25): 4
+Enter score: 1
+Enter score: 2
+Enter score: 5
+Enter score: 8
+Original scores: 1 2 5 8 
+Sorted scores (in descending order): 8 5 2 1 
+Enter the number of (lowest) scores to drop: 0
+Average (rounded down) with dropped scores removed: 4
+-- program is finished running --
+
+Test Run 4 (drop all scores)
+Enter the number of assignments (between 1 and 25): 4
+Enter score: 3
+Enter score: 5
+Enter score: 1
+Enter score: 7
+Original scores: 3 5 1 7 
+Sorted scores (in descending order): 7 5 3 1 
+Enter the number of (lowest) scores to drop: 4
+Average (rounded down) with dropped scores removed: 0
+-- program is finished running --
+
+Test Run 5 (big number)
+Enter the number of assignments (between 1 and 25): 5
+Enter score: 1000000000
+Enter score: 2
+Enter score: 2
+Enter score: 2
+Enter score: 0
+Original scores: 1000000000 2 2 2 0 
+Sorted scores (in descending order): 1000000000 2 2 2 0 
+Enter the number of (lowest) scores to drop: 2
+Average (rounded down) with dropped scores removed: 333333334
+-- program is finished running --
